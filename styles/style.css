@@ -1,5 +1,6 @@
 .page {
-  max-width: 1600px; min-width: 1100px;
+  max-width: 1600px;
+  min-width: 1100px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -18,13 +19,20 @@
 }
 
 .nav {
-  display: flex; justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav__logo {height: 80px; width: 58px;
+.nav__logo {
+  height: 80px;
+  width: 58px;
 }
 
-.nav__links { display: flex; column-gap: 20px;list-style-type: none; padding: 0;
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
   margin: 8px 0 0;
 }
 
@@ -36,7 +44,7 @@
 }
 
 .header__content {
-  margin:0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -81,7 +89,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size:cover;
+  background-size: cover;
 }
 .staff__title {
   text-align: center;
@@ -99,15 +107,15 @@
   margin: 0;
   color: #ffffff;
 }
-.staff__cards{
- display: flex;
- flex-wrap: wrap;
- max-width: 760px;
- margin: 60px auto auto;
- list-style-type: none;
- justify-content: center;
- padding:0;
- gap: 40px;
+.staff__cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 760px;
+  margin: 60px auto 40px;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  gap: 40px;
 }
 .card {
   background-color: #fff;
